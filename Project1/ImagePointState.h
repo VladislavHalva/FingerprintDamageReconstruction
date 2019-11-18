@@ -1,0 +1,13 @@
+#pragma once
+
+enum ImagePointState
+{
+	FOREGROUND,
+	BACKGROUND,
+	NO_DAMAGE,
+    LOW_DAMAGE = 127,
+	DAMAGED = 255,
+    LOW_CLARITY = 1,
+    HIGH_CLARITY = 254,
+	SINGULARITY
+};

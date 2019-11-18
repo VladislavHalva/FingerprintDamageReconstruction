@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DamageDetector">
+      <UniqueIdentifier>{6aeddc0e-5d12-490e-9c9b-124de7535654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Filters">
+      <UniqueIdentifier>{8e518eb8-d7ac-446d-be5d-ac8626e3888d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FeaturesExtraction">
+      <UniqueIdentifier>{9fbd0d61-d6cf-490b-9848-8481b49ded4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Image">
+      <UniqueIdentifier>{96a6035c-c44d-45c9-88e2-0ff92bbebda1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DamageDetector">
+      <UniqueIdentifier>{ecc7bffc-a472-40ea-9e84-ee7e4898cc58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Filters">
+      <UniqueIdentifier>{c7cc7797-b0b3-4153-8126-eb555fd90800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FeaturesExtraction">
+      <UniqueIdentifier>{3baecf6a-a7f3-4904-8b79-9ad7c4cbf9eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image">
+      <UniqueIdentifier>{0ffb1d2f-d2b4-4e0e-963f-5941714523a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessingPipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FloodFill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClarityEstimator.cpp">
+      <Filter>Source Files\DamageDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageDetector.cpp">
+      <Filter>Source Files\DamageDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="HighDamageDetector.cpp">
+      <Filter>Source Files\DamageDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="OCLEstimator.cpp">
+      <Filter>Source Files\DamageDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="OrientationDiscontinuityDetector.cpp">
+      <Filter>Source Files\DamageDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="RidgeClarityEstimator.cpp">
+      <Filter>Source Files\DamageDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="GaborFilter.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundSubstractor.cpp">
+      <Filter>Source Files\FeaturesExtraction</Filter>
+    </ClCompile>
+    <ClCompile Include="FrequencyEstimator.cpp">
+      <Filter>Source Files\FeaturesExtraction</Filter>
+    </ClCompile>
+    <ClCompile Include="OrientationsEstimator.cpp">
+      <Filter>Source Files\FeaturesExtraction</Filter>
+    </ClCompile>
+    <ClCompile Include="Preprocessor.cpp">
+      <Filter>Source Files\FeaturesExtraction</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageArea.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="SingularityDetector.cpp">
+      <Filter>Source Files\FeaturesExtraction</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicOperations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessingPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FloodFill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageDetector.h">
+      <Filter>Header Files\DamageDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="ClarityEstimator.h">
+      <Filter>Header Files\DamageDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaQuality.h">
+      <Filter>Header Files\DamageDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="HighDamageDetector.h">
+      <Filter>Header Files\DamageDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="OCLEstimator.h">
+      <Filter>Header Files\DamageDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="OrientationDiscontinuityDetector.h">
+      <Filter>Header Files\DamageDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="RidgeClarityEstimator.h">
+      <Filter>Header Files\DamageDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="GaborFilter.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundSubstractor.h">
+      <Filter>Header Files\FeaturesExtraction</Filter>
+    </ClInclude>
+    <ClInclude Include="FrequencyEstimator.h">
+      <Filter>Header Files\FeaturesExtraction</Filter>
+    </ClInclude>
+    <ClInclude Include="OrientationsEstimator.h">
+      <Filter>Header Files\FeaturesExtraction</Filter>
+    </ClInclude>
+    <ClInclude Include="Preprocessor.h">
+      <Filter>Header Files\FeaturesExtraction</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageArea.h">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagePointState.h">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="TareaOFieldMapper.h">
+      <Filter>Header Files\FeaturesExtraction</Filter>
+    </ClInclude>
+    <ClInclude Include="ToFieldWrapper.h">
+      <Filter>Header Files\FeaturesExtraction</Filter>
+    </ClInclude>
+    <ClInclude Include="SingularityDetector.h">
+      <Filter>Header Files\FeaturesExtraction</Filter>
+    </ClInclude>
+    <ClInclude Include="SingularityType.h">
+      <Filter>Header Files\FeaturesExtraction</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicOperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
